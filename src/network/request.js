@@ -33,5 +33,5 @@ export function myrequest(config) {
   },err =>{
     console.log(err)
   })
-  return instance( )
+  return instance(config)
 }
